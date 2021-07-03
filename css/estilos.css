@@ -44,3 +44,79 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 1rem;
 }
+main {
+    margin-top: 5.5rem;
+    text-align: center;
+}
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 2.7rem;
+}
+main .main-logo img {
+    width: 27.2rem;
+}
+main .main-input {
+    width: 58.2rem;
+    margin: 0 auto;
+}
+main .main-input-container {
+    width: 57.5;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 48rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 1.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+main .main-buttons {
+    width: 58.4rem;
+    height: 7rem;
+    margin: 0 auto;
+    padding: 1.8rem 0rem 0rem;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 3.6rem;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 1.4rem;
+    color: #3c4043;
+    border-radius: 0.5rem;
+    padding: 0 1.6rem;
+    margin: 1.1rem .4rem;
+}
+main .main-buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
